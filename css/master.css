@@ -1,7 +1,70 @@
-
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .debug [class*=col-]{
   background-color: grey;
   border: 1px solid black;
   height: 300px;
+}
+[class*=ms_] {
+  color: white;
+}
+div {
+  padding: 1vh 0 1vh 0;
+}
+.fa-star {
+  padding: 0 1vh 0 1vh;
+}
+
+/* header */
+.ms_top_header {
+  background-color: #2c3e50;
+  vertical-align: 80px;
+  font-size: 1.5em;
+}
+.ms_banner {
+  background-color: #1abc9c;
+  font-size: 1.5em;
+}
+header img {
+  width: 50%;
+}
+header a {
+  color: white;
+  padding-left: 1vh;
+
+}
+/* main */
+
+/* portfolio */
+main img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* about */
+.ms_wrap {
+  background-color: #1abc9c;
+}
+.ms_about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* contact me */
+.ms_contact_me {
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+}
+.btn-primary {
+  color: white;
+  background-color: #1abc9c;
+}
+/* footer */
+.ms_footer {
+  background-color: #2c3e50;
+}
+.ms_down_footer {
+  background-color: #1a252f;
 }
